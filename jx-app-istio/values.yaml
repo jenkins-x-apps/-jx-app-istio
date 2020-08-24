@@ -5,7 +5,7 @@ job:
 
 image:
   repository: docker.io/nodece/jx-istioctl
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
 
 serviceAccount:
   # Annotations to add to the service account
